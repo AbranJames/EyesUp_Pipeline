@@ -1,4 +1,4 @@
-# EyesUP Pipeline :eyes:
+# EyesUP Pipeline
 
 <p align="center">
 
