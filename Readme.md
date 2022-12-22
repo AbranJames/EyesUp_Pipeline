@@ -2,7 +2,7 @@
 
 Consiste na implantação de uma pipeline do projeto EyesUP, que consiste em um sistema de monitoramento de aplicações WEB e API's desenvolvido na disciplina de Desenvolvimento WEB do curso de Tecnologia de Redes de Computadores do IFPB - Campus JP. O foco aqui é na utilização de ferramentas devops para a implantação do projeto, sendo elas: Vagrant, Ansible, Docker e Docker Compose.
 
-<h2>ps: Caso queira, também é possível estar utilizando apenas o Docker Compose para instanciar os containers e executar o projeto na sua máquina local.</h2>
+ps: Caso queira, também é possível estar utilizando apenas o Docker Compose para instanciar os containers e executar o projeto na sua máquina local.
 
 <h1><a id="como-funciona"> :wrench:  Como funciona </a></h1>
 
