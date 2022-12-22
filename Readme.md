@@ -1,3 +1,28 @@
+# EyesUP Pipeline :eyes:
+
+<p align="center">
+
+<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/AbranJames/EyesUp_Pipeline?color=%2304D361">
+
+<img alt="Repository size" src="https://img.shields.io/github/repo-size/AbranJames/EyesUp_Pipeline">
+
+<img alt="Made by AbranJames" src="https://img.shields.io/badge/made%20by-AbranJames-%2304D361">
+
+</p>
+
+# :pushpin:  Índice
+
+<p align="center">
+    <a href="#sobre-o-projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#como-funciona">Como funciona</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#tecnologias-utilizadas">Tecnologias utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#como-rodar-o-projeto">Como rodar o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#como-rodar-o-projeto-docker">Como rodar o projeto (direto via container docker compose)</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#licença">Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#contato">Contato</a>
+</p>
+
+
 <h1><a id="sobre-o-projeto"> :bulb:  Sobre esta aplicação </a></h1>
 
 Possui como objetivo na implantação de uma pipeline do projeto EyesUP, que consiste em um sistema de monitoramento de aplicações WEB e API's desenvolvido na disciplina de Desenvolvimento WEB do curso de Tecnologia de Redes de Computadores do IFPB - Campus JP. O foco aqui é na utilização de ferramentas devops para a implantação do projeto, sendo elas: Vagrant, Ansible, Docker e Docker Compose.
@@ -39,7 +64,7 @@ $ cd EyesUp_Pipeline
 # Execute o comando abaixo para criar a máquina virtual
 $ vagrant up
 
-# Nesse momento o Vagrantfile irá criar a máquina virtual e executar o playbook ansible para a instalação e configuração dos softwares necessários para a execução do projeto. Em seguida, o Docker Compose irá criar os containers e executar o projeto. Para acessar a aplicação, acesse a newtork da VM na porta 3000.
+# Nesse momento o Vagrantfile irá criar a máquina virtual e executar o playbook ansible para a instalação e configuração dos softwares necessários para a execução do projeto. Em seguida, o Docker Compose irá criar os containers e executar o projeto. Para acessar a aplicação, acesse a newtork da VM na porta 3000 digitando no navegador:
 http://192.168.57.10:3000
 
 
@@ -61,7 +86,7 @@ http://192.168.57.10:5555
 $ vagrant halt
 ```
 
-<h1><a id="como-rodar-o-projeto"> :computer:  Como rodar o projeto (direto via container docker compose)</a></h1>
+<h1><a id="como-rodar-o-projeto-docker"> :computer:  Como rodar o projeto (direto via container docker compose)</a></h1>
 
 
 ```bash
