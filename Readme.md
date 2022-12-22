@@ -2,8 +2,6 @@
 
 <p align="center">
 
-<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/AbranJames/EyesUp_Pipeline?color=%2304D361">
-
 <img alt="Repository size" src="https://img.shields.io/github/repo-size/AbranJames/EyesUp_Pipeline">
 
 <img alt="Made by AbranJames" src="https://img.shields.io/badge/made%20by-AbranJames-%2304D361">
