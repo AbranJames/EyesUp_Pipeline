@@ -1,0 +1,10 @@
+#Parte 3 - docker compose
+
+version: '3'
+
+services:
+  app:
+    image: abrantedevops/eyesupnode:1.0
+    ports:
+      - "3000:3000"
+      - "5555:5555"

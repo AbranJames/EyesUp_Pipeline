@@ -1,0 +1,29 @@
+#Parte 2 - Ansible
+
+- hosts: all
+  become: yes
+  tasks:
+    - name: Alterando o nome do Linux
+      hostname:
+        name: server.eyesup
+
+    - name: Instalando o Docker e o Docker Compose
+      apt:
+        update_cache: yes
+        name:
+          - docker.io
+          - docker-compose
+        state: present
+
+    - name: Copiando o arquivo docker-compose.yml para a VM
+      copy:
+        src: docker-compose.yml
+        dest: /home/vagrant/
+   
+    - name: Executando o docker-compose
+      community.docker.docker_compose:
+        project_src: /home/vagrant
+        files:
+          - docker-compose.yml
+
+    
